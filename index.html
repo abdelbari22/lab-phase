@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algeria vision</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/c2d674fe2e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!--------------------- the upper part -------------------->
+    <header>
+        <a href="#home" class="logo"><i class="fa-solid fa-eye"></i>
+            Vision</a>
+
+        <nav class="navigation">
+            <a href="#Home">Home</a>
+            <a href="#services">services</a>
+            <a href="#projects">Order</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+    </header>
+
+<!--------------------- SLIDE SHOW -------------------->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="res/1111111111111.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="res/22222222.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="res/333333.jpg" style="width:100%">
+          <div class="text"></div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+
+      
+
+
+<!--------------------- the first part -------------------->
+    <section id="Home">
+        <h2>welcome to the <br><span>Vision</span></h2>
+        <br>
+        <h3>we build robots to help the world</h3>
+        <a href="#projects" class="main-btn">View our products</a>
+            <div class="social-icons">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+    </section>
+    <!--------------------- robots -------------------->
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="info">
+                    <h3>building robots</h3>
+                    <p>Research and write scripts for different topics that can then be directly recorded for video production</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-bug-slash"></i>
+                </div>
+                <div class="info">
+                    <h3>Programming robots</h3>
+                    <p>Record and shoot videos taking into consideration proper settings, followed by production & post-production work</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+                <div class="info">
+                    <h3>Repair</h3>
+                    <p>Develop complete curriculums for various technical topics to produce digital transformative courses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--------------------- projects -------------------->
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="res/AdobeStock_82312145.jpeg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">the game changer</p>
+                    <strong class="project-title">
+                        <span>nanotechnology</span>
+                        <a href="#" class="more-details">Order</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="res/00TB-FARMBOTS1-superJumbo.jpg" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">take care of our food</p>
+                    <strong class="project-title">
+                        <span>agriculture robot</span>
+                        <a href="#" class="more-details">Order</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="res/mi-robot-vacuum-cleaner-1c-cover.jpg" alt="">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">clean your house</p>
+                    <strong class="project-title">
+                        <span>Vacuum robot</span>
+                        <a href="#" class="more-details">Order</a>
+                    </strong>
+                </div>
+                
+        </div>
+    </section>
+
+    <!--------------------- footer -------------------->
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Abdelbari Kerbadj</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+    </footer>
+
+
+<!--------------------- contact-------------------->
+<section class="cards contact" id="contact">
+        
+    <div class="main-block">
+        <div class="left-part">
+          <i class="fas fa-envelope"></i>
+          <i class="fas fa-at"></i>
+          <i class="fas fa-mail-bulk"></i>
+        </div>
+        <form action="/">
+          <h1>Contact Us</h1>
+          <div class="info">
+            <input class="fname" type="text" name="name" placeholder="Full name">
+            <input type="text" name="name" placeholder="Email">
+            <input type="text" name="name" placeholder="Phone number">
+            
+          </div>
+          <p>Message</p>
+          <div>
+            <textarea rows="4"></textarea>
+          </div>
+          <button type="submit" href="/">Submit</button>
+        </form>
+      </div>
+
+
+
+
+
+
+
+</section>
+
+
+
+<script>
+  var slideIndex = 0;
+showSlides();
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for(i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if(slideIndex > slides.length) {
+    slideIndex = 1
+  }
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 4 seconds
+}
+  </script>
+
+
+    
+</body>
+
+</html>
